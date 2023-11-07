@@ -1,25 +1,28 @@
 .startbutton { 
-
     display: flex;
     margin: auto;
-    font-size: 25px;
     justify-content: center;
     align-items: center;
     height: 10vh;
     width: 20vh;
 }
 
-.startbutton, a { 
-
-    text-decoration: none;
-}
 
 .BackToStart { 
 
     display: flex;
-    height: 5vh;
+    margin: auto;
+    justify-content: center;
     align-items: center;
+    height: 10vh;
+    width: 20vh;
 }
+
+.BackToStart, a { 
+
+    text-decoration: none;
+}
+
 
 
 /* Backgrundsbild på en stuga */
@@ -110,3 +113,25 @@ header {
 }
 
 
+.InsideMagicCabin { 
+    display: flex;
+    margin: auto;
+    max-width: 60vh;
+
+
+}
+
+
+.GoBackOut { 
+    display: flex;
+    margin: auto;
+    padding: 10vh;
+    height: 10vh; 
+    width: 20vh;
+  
+}
+
+.GoBackOut, button { 
+
+    font-size: 20px;
+}
