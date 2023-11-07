@@ -12,10 +12,12 @@
 
     display: flex;
     margin: auto;
+    padding: 20px;
     justify-content: center;
     align-items: center;
-    height: 10vh;
-    width: 20vh;
+    font-size: 2px;
+    width: 60vh;
+    gap: 5vh;
 }
 
 .BackToStart, a { 
@@ -24,12 +26,11 @@
 }
 
 
-
 /* Backgrundsbild på en stuga */
 .MagicCabin { 
     display: flex;
    margin: auto;
-
+   max-width: 60vh;
 }
 
 
