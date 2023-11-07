@@ -5,6 +5,7 @@
     align-items: center;
     height: 10vh;
     width: 20vh;
+    cursor: pointer;
 }
 
 
@@ -18,6 +19,7 @@
     font-size: 2px;
     width: 60vh;
     gap: 5vh;
+    
 }
 
 .BackToStart, a { 
@@ -77,8 +79,6 @@ header {
     text-align: center;
     flex-direction: column;
     gap: 3vh;
-
-
 }
 
 .item1 { 
