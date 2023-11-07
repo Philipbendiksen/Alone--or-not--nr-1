@@ -1,4 +1,5 @@
 {
     "github.branchProtection": true,
-    "projectManager.groupList": true
+    "projectManager.groupList": true,
+    "liveServer.settings.port": 5501
 }
