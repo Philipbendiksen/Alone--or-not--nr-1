@@ -79,6 +79,7 @@ header {
     text-align: center;
     flex-direction: column;
     gap: 3vh;
+    background-color: blue; 
 }
 
 .item1 { 
@@ -86,6 +87,8 @@ header {
     height: 10vh;
     width: 20vh;
     font-size: 25px;
+    background-color: brown;
+    cursor: pointer; 
 
 
 }
@@ -94,6 +97,8 @@ header {
     height: 10vh;
     width: 20vh;
     font-size: 25px;
+    background-color: brown;
+    cursor: pointer; 
 
 
 }
@@ -102,6 +107,8 @@ header {
     height: 10vh;
     width: 20vh;
     font-size: 25px;
+    background-color: brown;
+    cursor: pointer; 
 
 
 }
