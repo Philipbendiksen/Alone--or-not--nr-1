@@ -1,17 +1,4 @@
 
-document.getElementById('startbutton').addEventListener('click', function () {
-
-  window.location.href = 'index.html';
-
-});
-
-
-window.onload = function () {
-
-  alert('Välkommen till spelet!');
-};
-
-
 /*  Funktion knapp ved */
 
 let knappFörVed = document.getElementById('knappFörVed');
@@ -47,7 +34,7 @@ knappFörYxa.addEventListener('click', function () {
 
 /*  funktion knapp svampar  */
 
-let knappFörSvamp = document.getElementById('knappFörSvampar');
+let knappFörSvamp = document.getElementById('knappFörSvamp');
 let svampCountElement = document.getElementById('svampCount');
 
 let svampCount = 0;
