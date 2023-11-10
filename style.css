@@ -65,7 +65,7 @@ header {
    margin: auto;
    justify-content: center;
    align-items: center;
-   background-color: lightslategray;
+   background-color:#248cdb ;
    width: 60vh;
    height: 50vh;
   
@@ -79,7 +79,7 @@ header {
     text-align: center;
     flex-direction: column;
     gap: 3vh;
-    background-color: blue; 
+    background-color: cornsilk; 
 }
 
 .item1 { 
@@ -87,7 +87,7 @@ header {
     height: 10vh;
     width: 20vh;
     font-size: 25px;
-    background-color: brown;
+    background-color: lightslategray;
     cursor: pointer; 
 
 
@@ -97,7 +97,7 @@ header {
     height: 10vh;
     width: 20vh;
     font-size: 25px;
-    background-color: brown;
+    background-color: lightslategray;
     cursor: pointer; 
 
 
@@ -107,7 +107,7 @@ header {
     height: 10vh;
     width: 20vh;
     font-size: 25px;
-    background-color: brown;
+    background-color: lightslategray;
     cursor: pointer; 
 
 
