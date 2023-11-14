@@ -14,6 +14,7 @@ let vedCount = 0;
 let knappFörYxa = document.getElementById('knappFörYxa');
 let yxaCountElement = document.getElementById('yxaCount');
 
+
 let yxaCount = 0;
 
 

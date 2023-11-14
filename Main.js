@@ -1,5 +1,5 @@
 
-/*  Funktion knapp ved */
+/*  Funktions knapp ved */
 
 let knappFörVed = document.getElementById('knappFörVed');
 let vedCountElement = document.getElementById('vedCount');
@@ -15,7 +15,7 @@ knappFörVed.addEventListener('click', function () {
 
 });
 
-/*  Funktion knapp yxor  */
+/*  Funktions knapp stenar (heter yxor tills jag ändrat)  */
 
 let knappFörYxa = document.getElementById('knappFörYxa');
 let yxaCountElement = document.getElementById('yxaCount');
@@ -28,11 +28,10 @@ knappFörYxa.addEventListener('click', function () {
   yxaCountElement.textContent = yxaCount;
   localStorage.setItem('yxaCount', yxaCount);
 
-
 });
 
 
-/*  funktion knapp svampar  */
+/*  funktions knapp svampar  */
 
 let knappFörSvamp = document.getElementById('knappFörSvamp');
 let svampCountElement = document.getElementById('svampCount');
@@ -43,7 +42,7 @@ knappFörSvamp.addEventListener('click', function () {
 
   svampCount++;
   svampCountElement.textContent = svampCount;
-  localStorage.setItem('svampCount', svampcount);
+  localStorage.setItem('svampCount', svampCount);
 
 
 });

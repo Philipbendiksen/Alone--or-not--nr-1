@@ -1,3 +1,5 @@
+/*  Sida 1 (startsida) */
+
 
 .bakgroundFade {
     display: none;
@@ -12,6 +14,7 @@
   }
 
 
+ /* Popup ruta med information till om spelet till spelaren */ 
 .popup{
     display: none;
     position: fixed;
@@ -22,33 +25,66 @@
     background-color: #fff;
     border: 1px solid #ccc;
     box-shadow: 5px 5px 5px rgb(0, 0, 0); 
+    text-decoration: none;
   }
+
+/* Kanpp för att starta spelet */
 
 .startButton { 
    display: flex;
    text-align: center;
+   align-items: center;
+   justify-content: center;
    margin: auto;
+   cursor: pointer;
+   height: 10vh;
+   background-color: darkslategray;
+   color: #fff;
+   font-size: 15px;
+   width: 20vh;
+    text-decoration: none;
    
 }
   
 
+
+
+
+/*  Sida 2 (Outside) */
+
 .BackToStart { 
 
     display: flex;
-    margin: auto;
-    padding: 20px;
-    justify-content: center;
     align-items: center;
-    font-size: 2px;
-    width: 60vh;
-    gap: 5vh;
-    
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    gap: 10px;
+
 }
 
-.BackToStart, a { 
+.GoBack { 
 
-    text-decoration: none;
+    cursor: pointer;
+    height: 10vh;
+    background-color: darkslategray;
+    color: #fff;
+    font-size: 15px;
+    width: 15vh;
+
+} 
+
+.GoForward  { 
+    cursor: pointer;
+    height: 10vh;
+    background-color: darkslategray;
+    color: #fff;
+    font-size: 15px;
+    width: 15vh;
+
+
 }
+
 
 
 /* Backgrundsbild på en stuga */
@@ -91,6 +127,7 @@ header {
    background-color:#248cdb ;
    width: 60vh;
    height: 50vh;
+
   
 }
 
@@ -138,31 +175,83 @@ header {
 
 .inventory {
     margin-top: 20px;
+    border: solid black;
     text-align: center;
     font-size: 20px;
 
 }
 
+.inventory p { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    border: solid black;
+    width: 20vh;
+    padding: 10px; 
+    
+}
 
+
+
+
+
+/*  Sida 3 (Inside) */
+
+
+/* background image */
 .InsideMagicCabin { 
     display: flex;
     margin: auto;
-    max-width: 60vh;
-
+    margin-bottom: 10vh;
+    max-width: 100%;
 
 }
 
 
 .GoBackOut { 
     display: flex;
+    text-decoration: none;
+
+}
+
+.buttonBackOut { 
+    font-size: 15px;
+    cursor: pointer;
     margin: auto;
-    padding: 10vh;
+    background-color: darkslategray;
+    color: #fff;
     height: 10vh; 
     width: 20vh;
-  
+    
 }
 
-.GoBackOut, button { 
 
-    font-size: 20px;
+.CreateItem { 
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+    
+    
 }
+
+.ButtonForCreateItem { 
+
+    display: flex;
+    background-color: darkslategray;
+    color: #fff;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 20vh;
+    height: 10vh;
+    cursor: pointer;
+    
+}
+
+
+
