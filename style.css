@@ -17,15 +17,15 @@
  /* Popup ruta med information till om spelet till spelaren */ 
 .popup{
     display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    margin: 0 auto;
+    bottom: 20vh;
     padding: 20px;
+    width: 40vh;
     background-color: #fff;
     border: 1px solid #ccc;
     box-shadow: 5px 5px 5px rgb(0, 0, 0); 
-    text-decoration: none;
+  
   }
 
 /* Kanpp för att starta spelet */
@@ -127,8 +127,7 @@ header {
    background-color:#248cdb ;
    width: 60vh;
    height: 50vh;
-
-  
+   margin-top: 10px ;
 }
 
 .spelKnappar {
