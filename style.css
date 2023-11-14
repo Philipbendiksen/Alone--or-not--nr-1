@@ -1,6 +1,14 @@
 /*  Sida 1 (startsida) */
 
 
+.MagicCabin { 
+    display: flex;
+   margin: auto;
+   max-width: 60vh;
+   margin-bottom: 3vh;
+}
+
+
 .bakgroundFade {
     display: none;
     position: fixed;
@@ -88,13 +96,6 @@
 
 
 /* Backgrundsbild på en stuga */
-.MagicCabin { 
-    display: flex;
-   margin: auto;
-   max-width: 60vh;
-}
-
-
 
 .Headerhamburgare { 
 
@@ -118,27 +119,36 @@ header {
 }
 
 
+.infoaboutbuttons { 
+
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+
 
 .Inventarier {
    display: flex;
    margin: auto;
    justify-content: center;
    align-items: center;
-   background-color:#248cdb ;
-   width: 60vh;
+    width: 60vh;
    height: 50vh;
    margin-top: 10px ;
 }
+
 
 .spelKnappar {
 
     display: flex;
     margin: auto;
-    padding: 10px;
+    border-radius: 60px;
+    padding: 40px;
     text-align: center;
     flex-direction: column;
     gap: 3vh;
-    background-color: cornsilk; 
+    background-color: darkslategray 
 }
 
 .item1 { 
@@ -146,6 +156,7 @@ header {
     height: 10vh;
     width: 20vh;
     font-size: 25px;
+    border-radius: 60px;
     background-color: lightslategray;
     cursor: pointer; 
 
@@ -156,6 +167,7 @@ header {
     height: 10vh;
     width: 20vh;
     font-size: 25px;
+    border-radius: 60px;
     background-color: lightslategray;
     cursor: pointer; 
 
@@ -166,6 +178,7 @@ header {
     height: 10vh;
     width: 20vh;
     font-size: 25px;
+    border-radius: 60px;
     background-color: lightslategray;
     cursor: pointer; 
 
@@ -203,8 +216,9 @@ header {
 .InsideMagicCabin { 
     display: flex;
     margin: auto;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
     max-width: 100%;
+    max-height: 40vh;
 
 }
 
