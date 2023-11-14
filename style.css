@@ -187,8 +187,11 @@ header {
 
 .inventory {
     margin-top: 20px;
-    border: solid black;
     text-align: center;
+    margin: auto;
+    border: solid black;
+    max-width: 50vh;
+    padding: 3vh;
     font-size: 20px;
 
 }
