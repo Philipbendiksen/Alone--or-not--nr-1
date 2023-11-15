@@ -1,31 +1,28 @@
 
-/*  Funktion knapp ved */
 
-let knappFörVed = document.getElementById('knappFörVed');
+/*  Funktion knapp ved */
 let vedCountElement = document.getElementById('vedCount');
 
-let vedCount = 0;
+// Hämtar värde från localStorage (om det finns)
+let vedCount = parseInt(localStorage.getItem('vedCount')) || 0;
+vedCountElement.textContent = vedCount;
 
 
 
+/*  Funktion knapp stenar  (heter yxor tills jag ändrat)  */
 
-/*  Funktion knapp yxor  */
 
-let knappFörYxa = document.getElementById('knappFörYxa');
 let yxaCountElement = document.getElementById('yxaCount');
 
-
-let yxaCount = 0;
-
-
-
+let yxaCount = parseInt(localStorage.getItem('yxaCount')) || 0;
+yxaCountElement.textContent = yxaCount;
 
 /*  funktion knapp svampar  */
 
-let knappFörSvamp = document.getElementById('knappFörSvamp');
 let svampCountElement = document.getElementById('svampCount');
 
-let svampCount = 0;
+let svampCount = parseInt(localStorage.getItem('svampCount')) || 0;
+svampCountElement.textContent = svampCount;
 
 
 
