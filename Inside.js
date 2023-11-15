@@ -27,6 +27,7 @@ svampCountElement.textContent = svampCount;
 
 
 
+/* Funktion för att create item knappen ska fungera om värdet i Inventory är mer än 3 för varje objekt */
 
 let createItemButton = document.getElementById('createItem');
 
@@ -35,20 +36,24 @@ createItemButton.addEventListener('click', function () {
 
     if (vedCount >= 3 && yxaCount >= 3 && svampCount >= 3) {
 
-        // Öppna en popup om värdet är 3 eller mer när knappen klickas på
-        window.open('https://exempel.com/popup-sida', '_blank', 'width=500,height=500');
+
+        window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley', '_blank', 'width=500,height=500');
     } else {
 
-        console.log('Värdet är inte tillräckligt för att öppna en popup.');
+        console.log('Finns inte 3 av varje i inventory.');
     }
 });
 
 
 
 
+/* Knapp för att ta bort local storage för att spela igen  */
+
 let resetLocalButton = document.getElementById('resetLocal');
 
 resetLocalButton.addEventListener('click', function () {
-    localStorage.clear(); // Detta kommer att ta bort all lagrad data i localStorage
-    console.log('localStorage har nollställts.');
+    localStorage.clear();
+    console.log('Åerställd');
 });
+
+
